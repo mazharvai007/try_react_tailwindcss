@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css';
-import CounterExample from './Components/CounterExample/CounterExample';
-import HelloWorld from './Components/HelloWorld/HelloWorld';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
 
 function App() {
 	return (
 		<div className='App'>
 			<div>
-				{/* <HelloWorld name='Jane' /> */}
-				<CounterExample />
+				<Header />
+				<Footer />
 			</div>
 		</div>
 	);
